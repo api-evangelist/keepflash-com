@@ -1,4 +1,4 @@
-# keepflash-com
+# KeepFlash
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-keepflash-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://keepflash.com/
+KeepFlash is an AI‑powered personal knowledge library that lets users save webpages, PDFs, videos, files, and notes in one searchable space. It offers AI‑assisted tagging, semantic search, topic page generation, and citation‑backed answers via integrated agents like Codex, Claude Code, and Cursor. The platform provides free plans with optional paid upgrades for more storage, advanced search, and higher AI limits, and includes read‑only MCP access for agents.
+
+**Areas:** AI · Knowledge Management · Personal Knowledge Library · Productivity · Search
+
+## KeepFlash on APIs.io
+
+Everything profiled for KeepFlash is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/keepflash-com/](https://apis.io/providers/keepflash-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [KeepFlash Agent authorization API](https://apis.io/apis/keepflash-com/keepflash-com-agent-authorization-api/) — Device-code authorization for Agent Access tokens.
+- [KeepFlash MCP API](https://apis.io/apis/keepflash-com/keepflash-com-mcp-api/) — Authenticated Model Context Protocol transport.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [KeepFlash Agentic Access](https://apis.io/agentic-access/keepflash-com/keepflash-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DeviceCodeRequest](https://apis.io/schemas/keepflash-com/keepflash-com-device-code-request/)
+- [DeviceCodeResponse](https://apis.io/schemas/keepflash-com/keepflash-com-device-code-response/)
+- [DeviceTokenRequest](https://apis.io/schemas/keepflash-com/keepflash-com-device-token-request/)
+- [DeviceTokenResponse](https://apis.io/schemas/keepflash-com/keepflash-com-device-token-response/)
+- [JsonRpcRequest](https://apis.io/schemas/keepflash-com/keepflash-com-json-rpc-request/)
+- [JsonRpcResponse](https://apis.io/schemas/keepflash-com/keepflash-com-json-rpc-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Keepflash Com Context](https://apis.io/jsonld/keepflash-com/keepflash-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [KeepFlash API Rules](https://apis.io/rules/keepflash-com/keepflash-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [KeepFlash Authentication](https://apis.io/security/keepflash-com/keepflash-com-authentication/)
+- [KeepFlash Domain Security](https://apis.io/security/keepflash-com/keepflash-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [KeepFlash Plans Pricing](https://apis.io/plans/keepflash-com/keepflash-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://keepflash.com/)
+- [Getting started](https://keepflash.com/en/blog/tutorial/getting-started)
+- [API reference](https://keepflash.com/en/changelog)
+- [Blog](https://keepflash.com/en/blog)
+- [Terms of service](https://keepflash.com/en/policies/terms-of-use)
+- [Privacy policy](https://keepflash.com/en/policies/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 54.1** — developing · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 62.6 |
+
+**Agent readiness 35.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/keepflash-com/](https://apis.io/providers/keepflash-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for KeepFlash: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/keepflash-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
